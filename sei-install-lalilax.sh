@@ -40,7 +40,7 @@ sleep 1
 
 if [ ! $NODENAME ]; then
 echo -e "${yesil}"
-read -p "Node Adı (Node Name): ${f}" NODENAME
+read -p "Node Adı (Node Name):" NODENAME
 echo 'export NODENAME='\"${NODENAME}\" >> $HOME/.bash_profile
 fi
 echo 'source $HOME/.bashrc' >> $HOME/.bash_profile
