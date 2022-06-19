@@ -3,9 +3,11 @@
 
 # İLK KURULUM | FIRST INSTALLATION
 
-İşletim Sistemi / Operating System -> Linux Ubuntu 20.04
+## İşletim Sistemi / Operating System 
 
-Sistem Gereksinimleri / System Requirements
+Linux Ubuntu 20.04
+
+## Sistem Gereksinimleri / System Requirements
 
 |    Bellek/Ram   |       İşlemci/Cpu      |      Disk      |   Network/Ağ           |
 |-------------|----------------|----------------|----------------|
