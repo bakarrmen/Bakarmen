@@ -11,8 +11,11 @@ Enter these commands on your server in order and start the installation.
 
 1.
 `sudo su`
+ 
 `cd`
+  
 `apt install screen -y`
+ 
 `screen -S node`
 
 
