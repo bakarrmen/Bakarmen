@@ -18,7 +18,6 @@ Enter these commands on your server in order and start the installation.
  
 `screen -S node`
 
-
 2.
 `wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
 
