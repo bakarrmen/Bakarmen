@@ -14,6 +14,9 @@ mavik="\033[36m"
 #lalilax                   #
 ############################
 
+apt install screen
+screen -S node
+
 exists()
 {
   command -v "$1" >/dev/null 2>&1
@@ -39,7 +42,8 @@ echo -e "${yesil}[SEI INSTALL 1.0.2]                       ${f}"
 sleep 1
 
 if [ ! $NODENAME ]; then
-read -p "${yesil}Node Adı (Node Name): ${f}" NODENAME
+echo -e "${yesil}"
+read -p "Node Adı (Node Name): ${f}" NODENAME
 echo 'export NODENAME='\"${NODENAME}\" >> $HOME/.bash_profile
 fi
 echo 'source $HOME/.bashrc' >> $HOME/.bash_profile
@@ -138,12 +142,23 @@ sudo systemctl daemon-reload
 sudo systemctl enable seid
 sudo systemctl restart seid
 
-clear
 
-echo -e "${yesil}Kurulum Devam Ediyor (Installation in progress) ${f}" && echo -e "${yesil}Kurulum Devam Ediyor (Installation in progress) ${f}" && sleep 8
+clear
+echo -e "${yesil}.__         .__  .__.__                   ${f}"
+echo -e "${yesil}|  | _____  |  | |__|  | _____  ___  ___  ${f}"
+echo -e "${yesil}|  | \__  \ |  | |  |  | \__  \ \  \/  /  ${f}"
+echo -e "${yesil}|  |__/ __ \|  |_|  |  |__/ __ \_>    <   ${f}"
+echo -e "${yesil}|____(____  /____/__|____(____  /__/\_ \  ${f}"
+echo -e "${yesil}          \/                  \/      \/  ${f}"
+echo -e "${yesil}[SEI INSTALL 1.0.2]                       ${f}"
+echo -e "${yesil}Kurulum Devam Ediyor (Installation in progress) ${f}"
+echo -e "${yesil}Kurulum Devam Ediyor (Installation in progress) ${f}"
+echo -e "${yesil}Kurulum Devam Ediyor (Installation in progress) ${f}"
+sleep 5
 
 
 # PEER FIX
+clear
 cd /root/.sei/config
 rm -rf addrbook.json
 rm -rf config.toml
@@ -166,10 +181,9 @@ echo -e "${yesil}|  |__/ __ \|  |_|  |  |__/ __ \_>    <   ${f}"
 echo -e "${yesil}|____(____  /____/__|____(____  /__/\_ \  ${f}"
 echo -e "${yesil}          \/                  \/      \/  ${f}"
 echo -e "${yesil}[SEI INSTALL 1.0.2]                       ${f}"
-echo -e "${yesil}[NODE DURUMU(STATUS)]                     ${f}"
+echo -e "${sari}[NODE DURUMU(STATUS)]                     ${f}"
 if [[ `service seid status | grep active` =~ "running" ]]; then
-echo -e "${yesil}[NODE AKTIF(STATUS)]                      ${f}"
-echo -e "${yesil}[NODE AKTIF(STATUS)]                      ${f}"
+echo -e "${yesil}[NODE AKTIF (ACTIVE)]                     ${f}"
 echo -e "${yesil}journalctl -fu seid -o cat                ${f}"
 else
 echo -e "${kirmizi}[NODE CALISMIYOR(NOT WORKING)]          ${f}"
