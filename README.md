@@ -7,7 +7,7 @@
 
 Sistem Gereksinimleri / System Requirements
 
-|    Bellek/Ram   |       İşlemci/Cpu      |      Disk      |   Ağ           |
+|    Bellek/Ram   |       İşlemci/Cpu      |      Disk      |   Network/Ağ           |
 |-------------|----------------|----------------|----------------|
 |     4GB     |   Quad-Core    |     250GB      |  1Gbps/100Mbps |
 
