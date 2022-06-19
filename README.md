@@ -9,7 +9,7 @@ Sunucunuza bu komutları sırasıyla girip kurulama başlayın.
 [EN]
 Enter these commands on your server in order and start the installation.
 
-1.
+##1.
 `sudo su`
  
 `cd`
@@ -18,7 +18,7 @@ Enter these commands on your server in order and start the installation.
  
 `screen -S node`
 
-2.
+##2.
 `wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
 
 ![two](https://cdn.discordapp.com/attachments/987875932129886231/988094872080756797/unknown.png)
