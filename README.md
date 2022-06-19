@@ -32,7 +32,7 @@ Automatic installation will ask for a node name, enter your node name there. (No
 ![three](https://cdn.discordapp.com/attachments/987875932129886231/988095898074611812/unknown.png)
 
 [TR]
-Kurulum tamamlandıktan sonra sunucunuz blok tarıyormu diye kontrol etmelisiniz alttaki komutu yazarak loglarınızı izleyebilirsiniz.
+Kurulum tamamlandıktan sonra sunucunuz blok tarıyor mu diye kontrol etmelisiniz. Alttaki komutu yazarak loglarınızı izleyebilirsiniz.
 
 [EN]
 After the installation is complete, you should check if your server is scanning blocks. You can monitor your logs by typing the command below.
