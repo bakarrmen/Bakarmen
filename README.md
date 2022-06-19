@@ -39,9 +39,27 @@ After the installation is complete, you should check if your server is scanning 
 
 `journalctl -fu seid -o cat `
 
-[TR]
+![4](https://cdn.discordapp.com/attachments/987875932129886231/988098955302801531/111111.png)
 
+[TR]
+Eğer bu şekilde blok tarama kısmında hata alıyorsanız bir süre beklemeniz gerekmekte peer listesi eşlemesi biraz zaman alabiliyor 5-15 dakika arası
 
 [EN]
+If you get an error in the block scanning part in this way, you need to wait for a while, peer list matching may take some time, between 5-15 minutes.
 
+![5](https://cdn.discordapp.com/attachments/987875932129886231/988098954975666216/22222.png)
+
+[TR]
+Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya başlayacaktır. Yukarıda örnek bir fotoğraf ekledim kırmızı alan içine aldığım yer height yazan kısmın yanındaki rakam taradığınız blok sayısını gösterir 153.000 blok sayısına gelene kadar bir süre beklemeniz gerekmtektedir.
+
+153 bin blok taradıktan sonra bir hata alacaksınız bu hatayı aldıktan sonra sei networkün yeni sürümünü kurup blok taramaya devam etmeniz gerekiyor.
+CTRL tuşuna basılı tutarak C tuşuna bastığınızda konsoldan çıkış yapabilirsiniz
+
+[EN]
+After a while, your logs will be like the picture above, that is, it will start scanning your blocks. I added a sample photo above. The number next to the part that says height, where I put it in the red area, shows the number of blocks you have scanned. You have to wait for a while until the number of blocks is 153,000.
+
+After scanning 153 thousand blocks, you will receive an error. After receiving this error, you need to install the new version of sei network and continue block scanning.
+You can exit the console by holding down the CTRL key and pressing the C key.
+
+# SURUM GUNCELLEMESI 1.0.3 | SEI VERSION UPDATE 1.0.3
 
