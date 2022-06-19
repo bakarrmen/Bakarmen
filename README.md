@@ -3,6 +3,14 @@
 
 # İLK KURULUM | FIRST INSTALLATION
 
+İşletim Sistemi / Operating System -> Linux Ubuntu 20.04
+
+Sistem Gereksinimleri / System Requirements
+
+|    Bellek/Ram   |       İşlemci/Cpu      |      Disk      |   Ağ           |
+|-------------|----------------|----------------|----------------|
+|     4GB     |   Quad-Core    |     250GB      |  1Gbps/100Mbps |
+
 [TR]
 Sunucunuza bu komutları sırasıyla girip kurulama başlayın.
 
