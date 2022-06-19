@@ -14,9 +14,6 @@ mavik="\033[36m"
 #lalilax                   #
 ############################
 
-apt install screen
-screen -S node
-
 exists()
 {
   command -v "$1" >/dev/null 2>&1
