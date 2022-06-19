@@ -13,6 +13,8 @@ Linux Ubuntu 20.04
 |-------------|----------------|----------------|----------------|
 |     4GB     |   Quad-Core    |     250GB      |  1Gbps/100Mbps |
 
+## Sunucu Kurulumu | Server Installation
+
 [TR]
 Sunucunuza bu komutları sırasıyla girip kurulama başlayın.
 
