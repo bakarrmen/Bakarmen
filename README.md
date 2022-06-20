@@ -128,13 +128,20 @@ After a while, your logs will be like the picture above, so it will continue to 
 
 `seid status 2>&1 | jq .SyncInfo`
 
-![9](https://cdn.discordapp.com/attachments/987875932129886231/988250577253330954/999.png)
+![9](https://cdn.discordapp.com/attachments/987875932129886231/988493822377996308/9950xx.png)
 
 ### [TR]
-İşaretli alanda alınan çıktı "true" olarak gözüküyorsa beklemeniz gerekiyor. Çıktı ne zaman "false" olursa o zaman cüzdan açma işlemine geçebilirsiniz. 
+Üstteki işaretli alanda mevcut blok sayınızı görebilirsiniz.  
+Aktif blok sayısına gelene kadar beklemeniz gerekmektedir.  
+Aktif blok sayısını öğrenmek için https://sei.explorers.guru/ adresine girip bakabilirsiniz. (Alttaki fotoğrafta blok sayısının yazdığı yeri işaretledim)
+Alttaki işaretli alan "true" olarak gözüküyorsa beklemeniz gerekiyor. Çıktı ne zaman "false" olursa o zaman cüzdan açma işlemine geçebilirsiniz. 
 
 ### [EN]
-If the output in the marked field appears as "true", you need to wait. Whenever the output is "false" then you can proceed to the wallet opening process.
+You can see your current block number in the marked area above.  
+You have to wait until you reach the number of active blocks.  
+To find out the number of active blocks, you can go to https://sei.explorers.guru/ and have a look. (I marked the place where the number of blocks is written in the photo below)  
+If the marked field at the bottom shows as "true", you need to wait. Whenever the output is "false" then you can proceed to the wallet opening process.  
+
 
 # Validatör Olma Rehberi | Guide to becoming a validator
 ## Cüzdan Oluşturma | Creating a Wallet
