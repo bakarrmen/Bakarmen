@@ -192,38 +192,24 @@ If the bot responds to you in this way after sending the command, we get tokens 
 ## Validatör Olma Komutu | Command to Become a Validator
 
 ### [TR]
-Validatör olma komutunu satır satır değil baştan sona tek bir seferde kopyalayıp göndermeniz gerekmektedir.  
+Validatör olma komutunu kolay olması açısından tek satır tek satır kopyalayarak sunucunuza yapıştırabilirsiniz.
 Komut içersinde özelleştirmeniz gereken alanlar alttakilerdir birisi cüzdan adı biri node adıdır.  
 - --moniker=nodename  
 - --from=walletname
   
 Bunları değiştirdikten sonra tüm komutu sunucuya yapıştırıp enterlayın  
 Sizden şifre isteyecektir. Cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerekmektedir.  
+(Önemli not : Şifre girerken yazıyor gibi gözükmez boşluk görünür ama yazar bu güvenlik amaçlıdır.)
 
 ### [EN]
-You need to copy and send the command to become a validator all at once, not line by line.  
+Copy and paste commands line by line
 The following are the fields you need to customize in the command, one is the wallet name and the other is the node name.  
 - --moniker=nodename  
 - --from=walletname  
   
 After changing them, paste the whole command into the server and enter  
-It will ask you for a password. You must use the password you entered when creating the wallet.   
-
-```
-PUBKEY=$(seid tendermint show-validator)
-seid tx staking create-validator \
---amount=980000usei \
---fees=5000usei \
---gas=300000 \
---pubkey=$PUBKEY \
---moniker=nodename \
---chain-id=sei-testnet-2 \
---from=walletname \
---commission-rate="0.10" \
---commission-max-rate="0.20" \
---commission-max-change-rate="0.01" \
---min-self-delegation="1"
-```
+It will ask you for a password. You must use the password you entered when creating the wallet.  
+(Important note: While entering the password, it does not appear to be typing, a space appears, but the author is for security purposes.)
 
 `PUBKEY=$(seid tendermint show-validator)`  
 `seid tx staking create-validator \`  
@@ -241,6 +227,14 @@ seid tx staking create-validator \
 `--yes`
 
 ### [TR]
-Komutu gönderdikten sonra sizden şifre girmenizi isteyecek cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerek
+Komutu gönderdikten sonra sizden şifre girmenizi isteyecek cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerekiyor.  
+(Önemli not : Şifre girerken yazıyor gibi gözükmez boşluk görünür ama yazar bu güvenlik amaçlıdır.)
 
 ### [EN]
+After sending the command, you need to use the password you entered when creating the wallet that will ask you to enter a password.  
+(Important note: While entering the password, it does not appear to be typing, a space appears, but the author is for security purposes.)
+
+![pass](https://cdn.discordapp.com/attachments/987875932129886231/988499825181982770/unknown.png)
+
+
+
