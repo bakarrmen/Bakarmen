@@ -29,7 +29,7 @@ Enter these commands on your server in order and start the installation.
  
 `screen -S node`
 
-`wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
+`wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo su -c "./sei-install-lalilax.sh"`
 
 ![two](https://cdn.discordapp.com/attachments/987875932129886231/988094872080756797/unknown.png)
 
@@ -87,7 +87,7 @@ Alttaki komut güncelleme scriptini başlatır.
 ### [EN]
 The below command starts the update script.
 
-`wget -q -O sei-install-lalilax1.0.3.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax1.0.3.sh && chmod +x sei-install-lalilax1.0.3.sh && sudo /bin/bash sei-install-lalilax1.0.3.sh`
+`wget -q -O sei-install-lalilax1.0.3.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax1.0.3.sh && chmod +x sei-install-lalilax1.0.3.sh && sudo su -c "./sei-install-lalilax1.0.3.sh"`
 
 ![6](https://cdn.discordapp.com/attachments/987875932129886231/988245245424697354/seee.png)
 
@@ -177,16 +177,16 @@ If the bot responds to you in this way after sending the command, we get tokens 
 ### [TR]
 Validatör olma komutunu satır satır değil baştan sona tek bir seferde kopyalayıp göndermeniz gerekmektedir.  
 Komut içersinde özelleştirmeniz gereken alanlar alttakilerdir birisi cüzdan adı biri node adıdır.  
---moniker=nodename  
---from=walletname  
+# --moniker=nodename  
+# --from=walletname  
 Bunları değiştirdikten sonra tüm komutu sunucuya yapıştırıp enterlayın  
 Sizden şifre isteyecektir. Cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerekmektedir.  
 
 ### [EN]
 You need to copy and send the command to become a validator all at once, not line by line.  
 The following are the fields you need to customize in the command, one is the wallet name and the other is the node name.  
---moniker=nodename  
---from=walletname  
+# --moniker=nodename  
+# --from=walletname  
 After changing them, paste the whole command into the server and enter  
 It will ask you for a password. You must use the password you entered when creating the wallet.  
 
