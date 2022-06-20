@@ -151,10 +151,10 @@ If you have an output like this. It means you have created your wallet. (Importa
 ![10](https://cdn.discordapp.com/attachments/987875932129886231/988254875169202186/unknown.png)
 
 ### [TR]
-1- Cüzdan bilgilerimizde address kısmındaki sei adresimizi kopyalıyoruz.
-2- SEI NETWORK resmi discord sunucusuna giriş yapıyoruz. (https://discord.gg/bzJxPskFMz)
-3- Discorda giriş yaptıktan sonra #testnet-faucet kanalına geliyoruz
-4- Kanala şu şekilde mesaj gönderiyoruz !faucet sei-adresimiz
+1- Cüzdan bilgilerimizde address kısmındaki sei adresimizi kopyalıyoruz.  
+2- SEI NETWORK resmi discord sunucusuna giriş yapıyoruz. (https://discord.gg/bzJxPskFMz)  
+3- Discorda giriş yaptıktan sonra #testnet-faucet kanalına geliyoruz  
+4- Kanala şu şekilde mesaj gönderiyoruz !faucet sei-adresimiz  
 
 ### [EN]
 1- We copy our sei address in the address section of our wallet information.
