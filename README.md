@@ -207,7 +207,7 @@ The following are the fields you need to customize in the command, one is the wa
 - --from=walletname  
   
 After changing them, paste the whole command into the server and enter  
-It will ask you for a password. You must use the password you entered when creating the wallet.  
+It will ask you for a password. You must use the password you entered when creating the wallet.   
 
 ```
 PUBKEY=$(seid tendermint show-validator)
@@ -224,3 +224,7 @@ seid tx staking create-validator \
 --commission-max-change-rate="0.01" \
 --min-self-delegation="1"
 ```
+### [TR]
+Komutu gönderdikten sonra sizden şifre girmenizi isteyecek cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerek
+
+### [EN]
