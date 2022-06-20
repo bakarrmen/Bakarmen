@@ -81,6 +81,48 @@ When you scan 153 thousand blocks, you need to get this exit error, then you nee
 
 ## SURUM GUNCELLEMESI 1.0.3 | SEI VERSION UPDATE 1.0.3
 
+### [TR]
+Alttaki komut güncelleme scriptini başlatır.
+
+### [EN]
+The below command starts the update script.
+
 `wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
+
+![6](https://cdn.discordapp.com/attachments/987875932129886231/988245245424697354/seee.png)
+
+![7](https://cdn.discordapp.com/attachments/987875932129886231/988241060931199026/unknown.png)
+
+### [TR]
+Bu çıktıyı aldığınızda sürüm güncellemesi bitmiş demektir. Logları görmek için altta yazan komutu yazınız.
+
+### [EN]
+When you get this printout, the version update is finished. Type the command below to see the logs.
+
+`journalctl -fu seid -o cat `
+
+![4](https://cdn.discordapp.com/attachments/987875932129886231/988098955302801531/111111.png)
+
+### [TR]
+Eğer bu şekilde blok tarama kısmında hata alıyorsanız bir süre beklemeniz gerekmekte peer listesi eşlemesi biraz zaman alabiliyor 5-15 dakika arası
+
+### [EN]
+If you get an error in the block scanning part in this way, you need to wait for a while, peer list matching may take some time, between 5-15 minutes.
+
+![8](https://cdn.discordapp.com/attachments/987875932129886231/988247189895643146/000.png)
+
+### [TR]
+Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya devam edecektir. 150 binden güncel blok sayısına gelene kadar beklemeniz gerekmektedir. Bu işlem biraz zaman alabilir güncel blok sayısına gelip gelmediğini aşşağıdaki komut ile kontrol edebilirsiniz.
+
+### [EN]
+After a while, your logs will be like the picture above, so it will continue to scan your blocks. You have to wait until you reach the current block number from 150 thousand. This process may take some time, you can check whether the current block number is reached with the command below.
+
+![9](https://cdn.discordapp.com/attachments/987875932129886231/988250577253330954/999.png)
+
+### [TR]
+İşaretli alanda alınan çıktı "true" olarak gözüküyorsa beklemeniz gerekiyor. Çıktı ne zaman "false" olursa o zaman cüzdan açma işlemine geçebilirsiniz. 
+
+### [EN]
+If the output in the marked field appears as "true", you need to wait. Whenever the output is "false" then you can proceed to the wallet opening process.
 
 
