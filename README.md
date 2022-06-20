@@ -129,3 +129,39 @@ If the output in the marked field appears as "true", you need to wait. Whenever 
 
 # Validatör Olma Rehberi | Guide to becoming a validator
 ## Cüzdan Oluşturma | Creating a Wallet
+
+### [TR]
+Cüzdan oluşturmak için alttaki komutu kullanın. walletname yazan kısmı silip kendi cüzdan adınızı yazın. Ardından sizden şifre isteyecek en az 8 haneli olacak şekilde bir şifre giriniz. (Önemli not : Şifre girerken yazıyor gibi gözükmez boşluk görünür ama yazar bu güvenlik amaçlıdır.) ardından şifreyi tekrar girmenizi isteyecek bir daha giriyorsunuz.
+
+### [EN]
+Use the command below to create a wallet. Delete the part that says walletname and write your own wallet name. Then enter a password of at least 8 digits that will ask you for a password. (Important note: While entering the password, it does not appear to be typing, a space appears, but the author is for security purposes.) Then you will be asked to re-enter the password.
+
+`seid keys add walletname`
+
+![10](https://cdn.discordapp.com/attachments/987875932129886231/988254875169202186/unknown.png)
+
+### [TR]
+Eğer böyle bir çıktı aldıysanız. Cüzdanınızı oluşturdunuz demektir.(Önemli Not: Bilgilerinizi mutlaka bir yere kayıt ediniz.)
+
+### [EN]
+If you have an output like this. It means you have created your wallet. (Important Note: Be sure to save your information somewhere.)
+
+## Faucet botunu kullanarak cüzdanımıza token eklemek  | Adding tokens to our wallet using the Faucet bot
+
+![10](https://cdn.discordapp.com/attachments/987875932129886231/988254875169202186/unknown.png)
+
+### [TR]
+1- Cüzdan bilgilerimizde address kısmındaki sei adresimizi kopyalıyoruz.
+2- SEI NETWORK resmi discord sunucusuna giriş yapıyoruz. (https://discord.gg/bzJxPskFMz)
+3- Discorda giriş yaptıktan sonra #testnet-faucet kanalına geliyoruz
+4- Kanala şu şekilde mesaj gönderiyoruz !faucet sei-adresimiz
+
+### [EN]
+1- We copy our sei address in the address section of our wallet information.
+2- Login to SEI NETWORK official discord server. (https://discord.gg/bzJxPskFMz)
+3- After logging in to Discord, we come to the #testnet-faucet channel
+4- Sending a message to the channel like this !faucet sei-address
+
+
+
+
