@@ -117,6 +117,8 @@ Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarını
 ### [EN]
 After a while, your logs will be like the picture above, so it will continue to scan your blocks. You have to wait until you reach the current block number from 150 thousand. This process may take some time, you can check whether the current block number is reached with the command below.
 
+`seid status 2>&1 | jq .SyncInfo`
+
 ![9](https://cdn.discordapp.com/attachments/987875932129886231/988250577253330954/999.png)
 
 ### [TR]
