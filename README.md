@@ -185,7 +185,7 @@ Sizden şifre isteyecektir. Cüzdan oluştururken girdiğiniz şifreyi kullanman
 ### [EN]
 You need to copy and send the command to become a validator all at once, not line by line.  
 The following are the fields you need to customize in the command, one is the wallet name and the other is the node name.  
-### --moniker=nodename  
+#gh-dark-mode-only --moniker=nodename  
 ### --from=walletname  
 After changing them, paste the whole command into the server and enter  
 It will ask you for a password. You must use the password you entered when creating the wallet.  
