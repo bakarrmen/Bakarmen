@@ -49,6 +49,14 @@ After the installation is complete, you should check if your server is scanning 
 
 `journalctl -fu seid -o cat `
 
+### [TR]
+Eğer üstteki kodu yazdığınızda ekranda hiç bir şey çıkmıyorsa alttaki kodu yazınız.
+
+### [EN]
+If nothing appears on the screen when you write the code above, write the code below.
+
+`systemctl restart systemd-journald `
+
 ![4](https://cdn.discordapp.com/attachments/987875932129886231/988098955302801531/111111.png)
 
 ### [TR]
@@ -60,7 +68,7 @@ If you get an error in the block scanning part in this way, you need to wait for
 ![5](https://cdn.discordapp.com/attachments/987875932129886231/988098954975666216/22222.png)
 
 ### [TR]
-Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya başlayacaktır. Yukarıda örnek bir fotoğraf ekledim kırmızı alan içine aldığım yer height yazan kısmın yanındaki rakam taradığınız blok sayısını gösterir 153.000 blok sayısına gelene kadar bir süre beklemeniz gerekmtektedir.
+Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya başlayacaktır. Yukarıda örnek bir fotoğraf ekledim kırmızı alan içine aldığım yer height yazan kısmın yanındaki rakam taradığınız blok sayısını gösterir 153.000 blok sayısına gelene kadar bir süre beklemeniz gerekmektedir.
 
 153 bin blok taradıktan sonra bir hata alacaksınız bu hatayı aldıktan sonra sei networkün yeni sürümünü kurup blok taramaya devam etmeniz gerekiyor.
 CTRL tuşuna basılı tutarak C tuşuna bastığınızda konsoldan çıkış yapabilirsiniz
