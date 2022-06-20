@@ -50,12 +50,13 @@ After the installation is complete, you should check if your server is scanning 
 `journalctl -fu seid -o cat `
 
 ### [TR]
-Eğer üstteki kodu yazdığınızda ekranda hiç bir şey çıkmıyorsa alttaki kodu yazınız.
+Eğer üstteki kodu yazdığınızda ekranda hiç bir şey çıkmıyorsa alttaki kodları sırasıyla tek tek yazınız. 
 
 ### [EN]
-If nothing appears on the screen when you write the code above, write the code below.
+If nothing appears on the screen when you type the code above, write the codes below one by one.
 
 `systemctl restart systemd-journald `
+`journalctl -fu seid -o cat `
 
 ![4](https://cdn.discordapp.com/attachments/987875932129886231/988098955302801531/111111.png)
 
