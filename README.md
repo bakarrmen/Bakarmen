@@ -87,7 +87,7 @@ Alttaki komut güncelleme scriptini başlatır.
 ### [EN]
 The below command starts the update script.
 
-`wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
+`wget -q -O sei-install-lalilax1.0.3.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax1.0.3.sh && chmod +x sei-install-lalilax1.0.3.sh && sudo /bin/bash sei-install-lalilax1.0.3.sh`
 
 ![6](https://cdn.discordapp.com/attachments/987875932129886231/988245245424697354/seee.png)
 
