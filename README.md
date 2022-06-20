@@ -157,10 +157,10 @@ If you have an output like this. It means you have created your wallet. (Importa
 4- Kanala şu şekilde mesaj gönderiyoruz !faucet sei-adresimiz  
 
 ### [EN]
-1- We copy our sei address in the address section of our wallet information.
-2- Login to SEI NETWORK official discord server. (https://discord.gg/bzJxPskFMz)
-3- After logging in to Discord, we come to the #testnet-faucet channel
-4- Sending a message to the channel like this !faucet sei-address
+1- We copy our sei address in the address section of our wallet information.  
+2- Login to SEI NETWORK official discord server. (https://discord.gg/bzJxPskFMz)  
+3- After logging in to Discord, we come to the #testnet-faucet channel  
+4- Sending a message to the channel like this !faucet sei-address  
 
 
 
