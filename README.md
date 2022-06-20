@@ -142,6 +142,7 @@ You have to wait until you reach the number of active blocks.
 To find out the number of active blocks, you can go to https://sei.explorers.guru/ and have a look. (I marked the place where the number of blocks is written in the photo below)  
 If the marked field at the bottom shows as "true", you need to wait. Whenever the output is "false" then you can proceed to the wallet opening process.  
 
+![sei](https://cdn.discordapp.com/attachments/987875932129886231/988495931576029235/999.png)  
 
 # Validatör Olma Rehberi | Guide to becoming a validator
 ## Cüzdan Oluşturma | Creating a Wallet
