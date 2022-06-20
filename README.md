@@ -224,6 +224,22 @@ seid tx staking create-validator \
 --commission-max-change-rate="0.01" \
 --min-self-delegation="1"
 ```
+
+`PUBKEY=$(seid tendermint show-validator)`  
+`seid tx staking create-validator \`  
+`--amount=980000usei \`  
+`--fees=5000usei \`  
+`--gas=300000 \`  
+`--pubkey=$PUBKEY \`  
+`--moniker=nodename \`  
+`--chain-id=sei-testnet-2 \`  
+`--from=walletname \`  
+`--commission-rate="0.10" \`  
+`--commission-max-rate="0.20" \`  
+`--commission-max-change-rate="0.01" \`  
+`--min-self-delegation="1" \`  
+`--yes`
+
 ### [TR]
 Komutu gönderdikten sonra sizden şifre girmenizi isteyecek cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerek
 
