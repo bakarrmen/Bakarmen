@@ -177,16 +177,16 @@ If the bot responds to you in this way after sending the command, we get tokens 
 ### [TR]
 Validatör olma komutunu satır satır değil baştan sona tek bir seferde kopyalayıp göndermeniz gerekmektedir.  
 Komut içersinde özelleştirmeniz gereken alanlar alttakilerdir birisi cüzdan adı biri node adıdır.  
-# --moniker=nodename  
-# --from=walletname  
+### --moniker=nodename  
+### --from=walletname  
 Bunları değiştirdikten sonra tüm komutu sunucuya yapıştırıp enterlayın  
 Sizden şifre isteyecektir. Cüzdan oluştururken girdiğiniz şifreyi kullanmanız gerekmektedir.  
 
 ### [EN]
 You need to copy and send the command to become a validator all at once, not line by line.  
 The following are the fields you need to customize in the command, one is the wallet name and the other is the node name.  
-# --moniker=nodename  
-# --from=walletname  
+### --moniker=nodename  
+### --from=walletname  
 After changing them, paste the whole command into the server and enter  
 It will ask you for a password. You must use the password you entered when creating the wallet.  
 
