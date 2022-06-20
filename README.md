@@ -162,9 +162,9 @@ If you have an output like this. It means you have created your wallet. (Importa
 3- After logging in to Discord, we come to the #testnet-faucet channel  
 4- Sending a message to the channel like this !faucet sei-address  
 
-![11](https://cdn.discordapp.com/attachments/987875932129886231/988258416831127562/unknown.png)
-![12](https://cdn.discordapp.com/attachments/987875932129886231/988258601191755816/unknown.png)
-![13](https://cdn.discordapp.com/attachments/987875932129886231/988258974866485268/unknown.png)
+![11](https://cdn.discordapp.com/attachments/987875932129886231/988258416831127562/unknown.png)  
+![12](https://cdn.discordapp.com/attachments/987875932129886231/988258601191755816/unknown.png)  
+![13](https://cdn.discordapp.com/attachments/987875932129886231/988258974866485268/unknown.png)  
 
 ### [TR]
 Komutu gönderdikten sonra bu şekilde bot size bu şekilde cevap verirse cüzdanımıza token almış oluyoruz.
