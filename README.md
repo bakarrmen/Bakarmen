@@ -71,5 +71,16 @@ After a while, your logs will be like the picture above, that is, it will start 
 After scanning 153 thousand blocks, you will receive an error. After receiving this error, you need to install the new version of sei network and continue block scanning.
 You can exit the console by holding down the CTRL key and pressing the C key.
 
-# SURUM GUNCELLEMESI 1.0.3 | SEI VERSION UPDATE 1.0.3
+![6](https://cdn.discordapp.com/attachments/987875932129886231/988240264571269190/unknown.png)
+
+### [TR]
+153 bin blok taradığınızda bu exit hatasını almanız gerekiyor burdan sonra klavyenizdeki CTRL tuşuna basılı tutup C harfine basmanız ve log ekranından çıkış yapmanız gerekiyor. Altta bulunan 1.0.3 güncellemesi başlığındaki yönergeleri takip edin ve sei versiyonunuzu güncelleyin
+ 
+### [EN]
+When you scan 153 thousand blocks, you need to get this exit error, then you need to hold down the CTRL key on your keyboard and press the letter C and exit the log screen. Follow the instructions in the 1.0.3 update heading below and update your sei version
+
+## SURUM GUNCELLEMESI 1.0.3 | SEI VERSION UPDATE 1.0.3
+
+`wget -q -O sei-install-lalilax.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x sei-install-lalilax.sh && sudo /bin/bash sei-install-lalilax.sh`
+
 
