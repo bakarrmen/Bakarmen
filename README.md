@@ -55,8 +55,8 @@ Eğer üstteki kodu yazdığınızda ekranda hiç bir şey çıkmıyorsa alttaki
 ### [EN]
 If nothing appears on the screen when you type the code above, write the codes below one by one.
 
-`systemctl restart systemd-journald `
-`journalctl -fu seid -o cat `
+`systemctl restart systemd-journald `  
+`journalctl -fu seid -o cat `  
 
 ![4](https://cdn.discordapp.com/attachments/987875932129886231/988098955302801531/111111.png)
 
