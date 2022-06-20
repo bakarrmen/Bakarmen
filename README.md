@@ -236,5 +236,34 @@ After sending the command, you need to use the password you entered when creatin
 
 ![pass](https://cdn.discordapp.com/attachments/987875932129886231/988499825181982770/unknown.png)
 
+### [TR]
+Alttaki gibi bir çıktı aldıysanız işlem başarıyla gerçekleştirilmiştir.
 
+### [EN]
+If you have an output like the one below, the operation has been successfully completed.
+
+![hash](https://cdn.discordapp.com/attachments/987875932129886231/988501550831906856/asdasd.png)
+
+## Validatör olduğunu kontrol etme | Checking you have a validator
+
+
+### [TR]
+https://sei.explorers.guru/ Sitesine giriş yapınız  
+Altda bulunan resimleri takip ederek kendinizi sitede arayabilirsiniz.  
+- Önemli Not: Sitede gözüken adınız cüzdan oluşturma komutunda girdiğiniz moniker komutunun yanındaki node adıdır.
+
+### [EN]
+Login to https://sei.explorers.guru/  
+You can search for yourself on the site by following the pictures below.
+- Important Note: Your name that appears on the site is the node name next to the moniker command you entered in the wallet creation command.
+
+![site1](https://cdn.discordapp.com/attachments/987875932129886231/988503942256279622/11.png)
+![site2](https://cdn.discordapp.com/attachments/987875932129886231/988503942596014090/22.png)
+![site3](https://cdn.discordapp.com/attachments/987875932129886231/988503941983662080/33.png)
+
+### [TR]
+Adınızı görüyorsanız validatör olmuşsunuzdur.
+
+### [EN]
+If you see your name, you are a validator.
 
