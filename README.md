@@ -127,4 +127,5 @@ After a while, your logs will be like the picture above, so it will continue to 
 ### [EN]
 If the output in the marked field appears as "true", you need to wait. Whenever the output is "false" then you can proceed to the wallet opening process.
 
-
+# Validatör Olma Rehberi | Guide to becoming a validator
+## Cüzdan Oluşturma | Creating a Wallet
