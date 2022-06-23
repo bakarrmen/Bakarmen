@@ -138,6 +138,8 @@ The below command starts the update script.
 
 `wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/lalilax104.sh && chmod +x lalilax104.sh && sudo /bin/bash lalilax104.sh`
 
+![8](https://cdn.discordapp.com/attachments/985345620220977212/989666408369651822/unknown.png)
+
 ### [TR]
 Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya devam edecektir. 681 binden güncel blok sayısına gelene kadar beklemeniz gerekmektedir. Bu işlem biraz zaman alabilir güncel blok sayısına gelip gelmediğini aşşağıdaki komut ile kontrol edebilirsiniz.
 
