@@ -121,10 +121,28 @@ If you get an error in the block scanning part in this way, you need to wait for
 ![8](https://cdn.discordapp.com/attachments/987875932129886231/988247189895643146/000.png)
 
 ### [TR]
-Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya devam edecektir. 150 binden güncel blok sayısına gelene kadar beklemeniz gerekmektedir. Bu işlem biraz zaman alabilir güncel blok sayısına gelip gelmediğini aşşağıdaki komut ile kontrol edebilirsiniz.
+Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya devam edecektir. 150 binden 681 bin sayısına gelene kadar beklemeniz gerekmektedir. 681 binden sonra 1.0.4 sürümünü yüklemek için altta bulunan başlığı takip ediniz.
 
 ### [EN]
-After a while, your logs will be like the picture above, so it will continue to scan your blocks. You have to wait until you reach the current block number from 150 thousand. This process may take some time, you can check whether the current block number is reached with the command below.
+After a while, your logs will be like the picture above, so it will continue to scan your blocks. You have to wait until you reach the number from 150 thousand to 681 thousand. Follow the title below to install version 1.0.4 after 681 thousand.
+
+## SURUM GUNCELLEMESI 1.0.4 | SEI VERSION UPDATE 1.0.4
+
+![8](https://cdn.discordapp.com/attachments/988475852310327336/989553007035293736/unknown.png)
+
+### [TR]
+Alttaki komut güncelleme scriptini başlatır.
+
+### [EN]
+The below command starts the update script.
+
+`wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/lalilax104.sh && chmod +x lalilax104.sh && sudo /bin/bash lalilax104.sh`
+
+### [TR]
+Bir süre sonra loglarınız yukarıdaki resim gibi olacaktır yani bloklarınızı taramaya devam edecektir. 681 binden güncel blok sayısına gelene kadar beklemeniz gerekmektedir. Bu işlem biraz zaman alabilir güncel blok sayısına gelip gelmediğini aşşağıdaki komut ile kontrol edebilirsiniz.
+
+### [EN]
+After a while, your logs will be like the picture above, so it will continue to scan your blocks. You have to wait until you reach the current block number from 681 thousand. This process may take some time, you can check whether the current block number is reached with the command below.
 
 `seid status 2>&1 | jq .SyncInfo`
 
